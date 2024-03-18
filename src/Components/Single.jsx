@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Clic from '../../../public/copiar.png'
+import Clic from '../../public/copiar.png'
 import Values from 'values.js'
 
 const Single = ({hexColor}) => {
