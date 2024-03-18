@@ -23,7 +23,7 @@ const Form = ({setList}) => {
             <input type="text" placeholder='#fff' onChange={e=>setColor(e.target.value)} />
             <input type="Submit" value='Send'/>
         </form>
-        {error ? <p className='error' >This color no exit</p>:null}
+        {error ? <p className='error' >This color does not exist</p>:null}
     </div>
 
   )
