@@ -73,6 +73,12 @@ body{
     color: #802FDE;
     text-shadow: 2px 3px 0px #fff;
 }
+.form-color h4{
+    color: #2711cf;
+    text-decoration: underline;
+}
+
+
 .form-color input[type="text"] {
     font-size: inherit;
     padding: 12px 13px;
@@ -124,3 +130,19 @@ p.author a {
     font-weight: 700;
     color: #000;
 }
+
+.perfil{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+
+.perfil img{
+    margin: 0px 5px 0px 20px;
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+}
+
